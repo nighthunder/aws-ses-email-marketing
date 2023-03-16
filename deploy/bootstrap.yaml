@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: AWS SES Template Sample Template
+Parameters:
+  TemplateName:
+    Type: String
+  SubjectPart:
+    Type: String
+  TextPart:
+    Type: String
+  HtmlPart:
+    Type: String
+Resources:
+  Template:
+    Type: 'AWS::SES::Template'
+    Properties:
+      Template:
+        TemplateName: !Ref TemplateName
+        SubjectPart: !Ref SubjectPart
+        TextPart: !Ref TextPart
+        HtmlPart: !Ref HtmlPart
