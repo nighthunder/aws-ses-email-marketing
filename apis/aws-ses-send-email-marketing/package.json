@@ -1,0 +1,19 @@
+{
+  "name": "aws-ses-send-email-marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc --strictNullChecks --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --strictNullChecks"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.292.0",
+    "aws-sdk": "^2.1336.0",
+    "nodemon": "^2.0.21",
+    "rss-parser": "^3.12.0"
+  }
+}

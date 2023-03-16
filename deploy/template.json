@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "MainFeedRSSTemplate",
+    "SubjectPart": "Open Finance Informa - Últimas noticias",
+    "HtmlPart": "<h1>Item: {{title}},</h1><p><a href={{link}}>{{link}}</a></p>",
+    "TextPart": "Informe: {{title}},\r\nDate: {{date}}."
+  }
+}
